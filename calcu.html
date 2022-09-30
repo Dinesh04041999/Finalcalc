@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/home/st/Dineshkumar/project/asset/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="calcu.css">
+</head>
+
+<body style="background-image:url('img.png') ;background-repeat:no-repeat">
+    <p></p>
+    <div class="container ">
+
+        <div class="output">
+            <div class="previous">
+                <ul id="list">
+                    <li></li>
+                </ul>
+            </div>
+            <div class="current">
+                <input type="textbox" id="input" name="input" class="input" >
+
+            </div>
+        </div>
+        <div class="grid">
+            <input type="button" value="⌫" style="color: white;background-color: red; " class="but"
+                    onclick="delet()">
+                <input type="button" value="(" class="but" onclick="display('(')">
+                <input type="button" value=")" class="but" onclick="display(')')">
+                <input type="button" value="mod" class="but" onclick="dis('mod')">
+                <input type="button" value="Π" class="but" onclick="dis('Π')">
+
+                <input type="button" value="7" class="number" onclick="display('7')">
+                <input type="button" value="8" class="number" onclick="display('8')">
+                <input type="button" value="9" class="number" onclick="display('9')">
+                <input type="button" value="÷" class="operation" onclick="display('/')">
+                <input type="button" value="√" class="but" onclick="dis('√')">
+
+                <input type="button" value="4" class="number" onclick="display('4')">
+                <input type="button" value="5" class="number" onclick="display('5')">
+                <input type="button" value="6" class="number" onclick="display('6')">
+                <input type="button" value="*" class="operation" onclick="display('*')">
+                <input type="button" value="X²" class="but" onclick="dis('^')">
+
+                <input type="button" value="1" class="number" onclick="display('1')">
+                <input type="button" value="2" class="number" onclick="display('2')">
+                <input type="button" value="3" class="number" onclick="display('3')">
+                <input type="button" value="-" class="operation" onclick="display('-')">
+                <input type="button" value="=" class="span-two" onclick="equal(input.value)">
+
+                <input type="button" value="0" class="number" onclick="display('0')">
+                <input type="button" value="." class="but" onclick="dis('.')">
+                <input type="button" value="%" class="but" onclick="display('%')">
+                <input type="button" value="+" class="operation" onclick="display('+')">
+
+            
+        </div>
+    </div>
+    <script src="calcu.js"></script>
+    <script src="/home/st/Dineshkumar/project/asset/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>

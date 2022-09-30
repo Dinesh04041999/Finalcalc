@@ -1,0 +1,57 @@
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 75px);
+    grid-template-rows: repeat(5, 75px);
+    font-size: 25px;
+}
+
+.container {
+    margin-left: 560px;
+    width: 380px;
+    height: 580px;
+    border: solid 3px;
+    padding: 0 0 0 0;
+}
+
+
+.input {
+    width: 372px;
+    height: 70px;
+    margin-left: 10px;
+    font-size: 30px;
+    background-color: rgb(236, 234, 230);
+}
+
+.span-two {
+    grid-row: span 2;
+    height: 150px;
+    width: 75px;
+}
+
+.output {
+    width: 375px;
+    margin-left: -9px;
+}
+
+li {
+    list-style-type: none;
+    border-top: solid 1px;
+    width: 375px
+}
+
+.previous {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    width: 380px;
+    height: 120px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 10px;
+}
+
+#list {
+    padding: 0px 0px 0px 0px;
+}
